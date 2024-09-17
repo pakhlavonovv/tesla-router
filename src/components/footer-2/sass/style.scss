@@ -1,0 +1,87 @@
+.footer{
+    margin-top: 80px;
+    .footer_wrapper{
+        .footer_left{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 20px;
+            .info{
+                h3{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+        .footer_right{
+            margin-top: 20px;
+            button{
+                width: 149px;
+                height: 40px;
+                background-color: rgb(222, 0, 0);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid rgb(222, 0, 0);
+                border-radius: 55px;
+                color: white;
+                gap: 10px;
+                transition: all ease 0.3s;
+                &:hover{
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 500px) {
+    .footer{
+        .footer_wrapper{
+            .footer_left{
+                display: grid;
+                grid-template-columns: auto auto auto;
+            }
+        }
+    }
+}
+@media (min-width: 600px) {
+    .footer{
+        .footer_wrapper{
+            .footer_left{
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+            }
+        }
+    }
+}
+@media (min-width: 800px) {
+    .footer{
+        .footer_wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .footer_left{
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                gap: 40px;
+            }
+        }
+    }
+}
+@media (min-width: 1000px) {
+    .footer{
+        .footer_wrapper{
+            .footer_left{
+                .info{
+                    h3{
+                        font-size: 24px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
