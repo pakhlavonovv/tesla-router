@@ -14,6 +14,7 @@ import { Pagination } from 'swiper/modules';
 import MercedesImage from '../carousel/img/mercedes.png'
 import BmwImage from '../carousel/img/bmw.png'
 import LexusImage from './img/lexus.png'
+import RollsRoyce from '../carousel-4/img/rr.png'
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
         <SwiperSlide><img src={LexusImage} alt="" /></SwiperSlide>
         <SwiperSlide><img src={MercedesImage} alt="" /></SwiperSlide>
         <SwiperSlide><img src={BmwImage} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={RollsRoyce} alt="" /></SwiperSlide>
       </Swiper>
     </>
   );
